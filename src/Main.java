@@ -2,8 +2,8 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        MajorityElement m = new MajorityElement();
-        int[] nums = {1, 2, 2, 3, 2};
-        System.out.println(m.solution(nums));
+        ExcelSheetColumnNumber d= new ExcelSheetColumnNumber();
+        String str= "zzz";
+        System.out.println(d.titleToNumber(str));
     }
 }
