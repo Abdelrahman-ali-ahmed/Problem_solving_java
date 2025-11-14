@@ -3,7 +3,8 @@
 public class Main {
     public static void main(String[] args) {
         ExcelSheetColumnNumber d= new ExcelSheetColumnNumber();
+        hammingWeight w=new hammingWeight();
         String str= "zzz";
-        System.out.println(d.titleToNumber(str));
+        System.out.println(w.solution(128));
     }
 }
