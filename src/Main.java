@@ -18,9 +18,10 @@ public class Main {
 
         s3.left = s4;
         s3.right = s6;
+     sortedArrayToBST s = new sortedArrayToBST();
+        int[] arr = new int[]{3, 5, 8};
+        TreeNode root = s.soluation(arr);
 
-
-
-        System.out.println(i.soluation(s1));
+        s.printInOrder(root);
     }
 }
