@@ -10,9 +10,15 @@ public class Main {
 //
 //        minDepth s = new minDepth();
 
-        findFinalValue v=new findFinalValue();
-        int[] nums = {5,3,6,1,12};
-        int original= 3;
-        System.out.println(v.soluation(nums,original));
+       ListNode n1=new ListNode(3);
+        ListNode n2=new ListNode(2);
+        ListNode n3=new ListNode(0);
+        ListNode n4=new ListNode(4);
+        n1.next=n2;
+        n2.next=n3;
+        n3.next=n4;
+        n4.next=n2;
+        hasCycle v=new hasCycle();
+        System.out.println(v.soluation(n1));
     }
 }
