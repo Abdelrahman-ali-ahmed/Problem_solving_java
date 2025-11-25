@@ -1,4 +1,5 @@
 public class smallestRepunitDivByK {
+    //problem:https://leetcode.com/problems/smallest-integer-divisible-by-k/?envType=daily-question&envId=2025-11-25
     public int solution(int k){
         if(k%2==0||k%5==0) return -1;
         int r=1%k;
