@@ -1,0 +1,18 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class BinaryTreePreorderTraversal {
+    public List<Integer> preorderTraversal(TreeNode root) {
+        List<Integer> result = new ArrayList<>();
+        preorder(root, result);
+        return result;
+    }
+
+    private void preorder(TreeNode node, List<Integer> result) {
+        if (node == null) return;
+
+        result.add(node.val);            // root
+        preorder(node.left, result);     // left
+        preorder(node.right, result);    // right
+    }
+}
