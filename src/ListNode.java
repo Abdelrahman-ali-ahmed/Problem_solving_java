@@ -7,7 +7,7 @@ public class ListNode {
         this.val = val;
         this.next = null; // By default, next is null
     }
-
+    public ListNode() {}
     // Constructor to create a node with a value and a next node
     public ListNode(int val, ListNode next) {
         this.val = val;
